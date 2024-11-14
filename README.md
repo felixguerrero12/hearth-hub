@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔥 Hunting Exchange And Research Threat Hub (HEARTH) 🔥
 
-## Getting Started
+<img src="/Assets/HEARTH-logo.png" alt="HEARTH Logo" width="500"/>
 
-First, run the development server:
+A community-driven repository for threat hunting ideas, methodologies, and research that serves as a central gathering place for hunters to share knowledge, collaborate on techniques, and advance the field of threat hunting.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+HEARTH incorporates ideas for **three distinct types** of hunts classified by the [PEAK Threat Hunting Framework](https://www.splunk.com/en_us/blog/security/peak-threat-hunting-framework.html):
+- **Flames**: Hypothesis-driven investigations with clear, testable hypotheses
+- **Embers**: Environment baselining and exploratory analysis
+- **Alchemy**: Model-assisted and algorithmic approaches to threat detection
+
+## 🔥 Why 
+Generating effective hypotheses and ideas for threat hunting is hard. HEARTH provides a collaborative environment where hunters can share, develop, and refine their methodologies while building a comprehensive knowledge base for the security community.
+
+## 🔥 Goals 
+- Encourage collaboration
+- Inspire threat hunters with practical and theoretical hunting ideas
+
+## 🔥 Repository Structure
+
+```
+HEARTH/
+├── Flames/              # Hypothesis-Driven hunts
+├── Embers/              # Baseline Analysis
+├── Alchemy/             # Model-Assisted & Algorithmic Hunting
+├── Forge/               # Development space
+├── Kindling/            # Resources & Templates
+├── Keepers/             # Guidelines & Standards
+└── Assets/              # Images & Logos
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔥 How to Contribute to HEARTH 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+We welcome contributions to the Hunting Exchange And Research Threat Hub! Contributing is simple:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🔥 Submit a Hunt Idea
 
-## Learn More
+We welcome contributions from all threat hunters! To share your ideas:
 
-To learn more about Next.js, take a look at the following resources:
+1. Go to [Submit New Issue](https://github.com/triw0lf/HEARTH/issues/new/choose)
+2. Select "HEARTH Hunt Submission Form"
+3. Fill out the required information about your hunt
+4. Submit for review
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> See our [Contribution Guidelines](/Keepers/Contributing.md) for detailed instructions and requirements.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> [!IMPORTANT] 
+> Approved HEARTH Hunt submissions receive an official hunt number, community recognition, and integration into the HEARTH repository.
 
-## Deploy on Vercel
+## 🔥 Other Contributions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔨 The Forge
+Got a half-baked idea or something that needs work? Submit it to **The Forge**, where we collect and refine early-stage threat hunting ideas for all hunt types.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Browse [The Forge](/Forge/Forge.md)
+- Contribute using the [Forge - Early Stage Hunt Idea form](https://github.com/triw0lf/HEARTH/issues/new/choose)
+
+### 🧯 Have feedback or suggestions?
+Use our standard [HEARTH Issue Template](https://github.com/triw0lf/HEARTH/issues/new/choose) for:
+- Bug reports
+- Feature requests
+- General feedback
+
+## 🔥 Community Roles
+
+### HEARTH Keepers
+Repository maintainers and reviewers who:
+- Review submissions
+- Maintain quality standards
+- Guide community development
+- Facilitate collaboration
+
+### HEARTH Crafters
+Regular contributors who:
+- Submit hunt ideas
+- Participate in reviews
+- Support the community
+- Share knowledge
+
+### HEARTH Apprentices
+New members who:
+- Learn methodologies
+- Make initial contributions (see [the Forge](/Forge/Forge.md))
+- Engage with community
+
+### Additional Resources
+- **🪵 [Resources Guide](/Kindling/Resources.md)**: A curated collection of threat intelligence sources, security blogs, research papers, and tools to help generate and refine hunt ideas.
+- **[Hunt Generation Template](/Kindling/Hunt-Generation.md)**: Once you've got your idea, use this to plan out your hunt in detail.
+- **[Hunt Review Template](/Kindling/Hunt-Review.md)**: After your hunt, use this to capture all key findings and ensure nothing is missed when sharing your results.
+
+## Made with 🔥 by the HEARTH team: 
+Lauren 🤠 x:[@jotunvillur](https://x.com/jotunvillur) / LI:[Lauren Proehl](https://www.linkedin.com/in/laurenproehl/)  
+Sydney 🏋️‍♀️ x:[@letswastetime](https://x.com/letswastetime) / LI:[Sydney Marrone](https://www.linkedin.com/in/sydneymarrone/)  
+John :skull: x:[@AngryInfoSecGuy](https://x.com/AngryInfoSecGuy) / LI:[John Grageda](https://www.linkedin.com/in/johngrageda/)
+
+---
+<p align="center">
+  🔥 **Keep the HEARTH burning!** 🔥
+</p>
